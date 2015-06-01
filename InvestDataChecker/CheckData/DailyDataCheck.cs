@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Xml.Linq;
-using InvestDataChecker.Data.DataSetTableAdapters;
+using InvestDataChecker.Data.InvestDataSetTableAdapters;
 using InvestDataChecker.Util;
 using InvestDataChecker.Xml;
 
@@ -65,7 +65,7 @@ namespace InvestDataChecker.CheckData
             vwta.GetData().ForEach(x =>
             {
                 var beforePrice = 0d;
-                dta.GetDataByInvestId(x.stock_id).OrderByDescending(y => y.addtime).ForEach(y =>
+                dta.GetDataByStockId(x.stock_id).OrderByDescending(y => y.addtime).ForEach(y =>
                 {
                     if ((int)beforePrice == 0)
                     {

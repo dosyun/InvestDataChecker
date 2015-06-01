@@ -79,14 +79,10 @@
     <Compile Include="CheckData\KairiDataCheck.cs" />
     <Compile Include="CheckData\MinutelyCheckData.cs" />
     <Compile Include="CheckData\NikkeiDataCheck.cs" />
-    <Compile Include="Data\DataSet.cs">
-      <DependentUpon>DataSet.xsd</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="Data\DataSet.Designer.cs">
+    <Compile Include="Data\InvestDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DataSet.xsd</DependentUpon>
+      <DependentUpon>InvestDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Extention\IEnumerableEx.cs" />
     <Compile Include="InvestConst.cs" />
@@ -104,16 +100,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Data\DataSet.xsc">
-      <DependentUpon>DataSet.xsd</DependentUpon>
+    <None Include="Data\InvestDataSet.xsc">
+      <DependentUpon>InvestDataSet.xsd</DependentUpon>
     </None>
-    <None Include="Data\DataSet.xsd">
+    <None Include="Data\InvestDataSet.xsd">
       <SubType>Designer</SubType>
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>DataSet.Designer.cs</LastGenOutput>
+      <LastGenOutput>InvestDataSet.Designer.cs</LastGenOutput>
     </None>
-    <None Include="Data\DataSet.xss">
-      <DependentUpon>DataSet.xsd</DependentUpon>
+    <None Include="Data\InvestDataSet.xss">
+      <DependentUpon>InvestDataSet.xsd</DependentUpon>
     </None>
     <None Include="InvestDataChecker_一時キー.pfx" />
     <None Include="packages.config" />

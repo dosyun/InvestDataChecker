@@ -4,7 +4,7 @@ using System.Linq;
 using System.Runtime.Remoting;
 using System.Text;
 using System.Threading.Tasks;
-using InvestDataChecker.Data.DataSetTableAdapters;
+using InvestDataChecker.Data.InvestDataSetTableAdapters;
 using InvestDataChecker.Util;
 using InvestDataChecker.Xml;
 

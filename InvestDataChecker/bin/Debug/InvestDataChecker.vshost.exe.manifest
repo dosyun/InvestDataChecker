@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="InvestDataChecker.exe" size="207256">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="InvestDataChecker.exe" size="206336">
       <assemblyIdentity name="InvestDataChecker" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>GkeSN/B9HOfuUhR0dYFOcp5tighI3MXN9DVRWuFFFz4=</dsig:DigestValue>
+        <dsig:DigestValue>oKs/DmQJRHgrwvzac1+5IVOqcRwaKA0viUxUPFNOZ0Q=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -65,13 +65,13 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="InvestDataChecker.exe.config" size="515">
+  <file name="InvestDataChecker.exe.config" size="754">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>jQJ6EVc19Hz96NzPmkFzAKXfVVW2G7ADlJhi1Itgl9E=</dsig:DigestValue>
+      <dsig:DigestValue>9KnKrCfeV/KtGiu7zm0FIxe0+sxQd2Kxu5Udcj88IyE=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
